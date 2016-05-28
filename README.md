@@ -1,6 +1,6 @@
 Damgård–Jurik Cryptosystem
 ======
-[Damgård–Jurik Cryptosystem] [1] is a generalization of the
+[Damgård–Jurik Cryptosystem] [1](https://en.wikipedia.org/wiki/Damg%C3%A5rd%E2%80%93Jurik_cryptosystem) is a generalization of the
  [Paillier cryptosystem] [2] , which is a additive
  [homomorphic cryptosystem] [3] . Please see [this paper] [5] for
  its mathematical proof.
