@@ -1,12 +1,13 @@
 Damgård–Jurik Cryptosystem
 ======
-[Damgård–Jurik Cryptosystem][1] is a generalization of the
- [Paillier cryptosystem] [2], which is a additive
- [homomorphic cryptosystem] [3]. Please see [this paper] [5] for
+[Damgård–Jurik Cryptosystem] [1] is a generalization of the
+ [Paillier cryptosystem] [2] , which is a additive
+ [homomorphic cryptosystem] [3] . Please see [this paper] [5] for
  its mathematical proof.
 For two message m1, m2, there exists
 
 D(E(m1,r1)<sup>m2</sup>*g<sup>m2</sup>mod n<sup>2</sup>) = m1 * m2 mod n<sup>2</sup>
+
 D(E(m1,r,)*E(m2,r2)mod n<sup>2</sup>) = (m1 + m2) mod n
 
 For more details of Damgård–Jurik Cryptosystem, please see [this paper] [4]
@@ -51,12 +52,8 @@ Here we show a example to select a plaintext, please see header file for more in
     damgard_jurik_plaintext_t *se_p = dj.decrypt(&c_3);
     unsigned char *select_text = se_p->to_bytes();
 
- [1] https://en.wikipedia.org/wiki/Damg%C3%A5rd%E2%80%93Jurik_cryptosystem  "Damgård–Jurik Cryptosystem"
-
- [2] https://en.wikipedia.org/wiki/Paillier_cryptosystem  "Paillier"
-
- [3] https://en.wikipedia.org/wiki/Homomorphic_encryption "HE"
-
- [4] https://people.csail.mit.edu/rivest/voting/papers/DamgardJurikNielsen-AGeneralizationOfPailliersPublicKeySystemWithApplicationsToElectronicVoting.pdf "Damgård–Jurik"
-
- [5] http://ojs.statsbiblioteket.dk/index.php/brics/article/viewFile/20212/17825 "Damgård–Jurik"
+  [1] https://en.wikipedia.org/wiki/Damg%C3%A5rd%E2%80%93Jurik_cryptosystem  "Damgård–Jurik Cryptosystem"
+  [2] https://en.wikipedia.org/wiki/Paillier_cryptosystem  "Paillier"
+  [3] https://en.wikipedia.org/wiki/Homomorphic_encryption "HE"
+  [4] https://people.csail.mit.edu/rivest/voting/papers/DamgardJurikNielsen-AGeneralizationOfPailliersPublicKeySystemWithApplicationsToElectronicVoting.pdf "Damgård–Jurik"
+  [5] http://ojs.statsbiblioteket.dk/index.php/brics/article/viewFile/20212/17825 "Damgård–Jurik"
