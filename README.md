@@ -51,12 +51,12 @@ Here we show a example to select a plaintext, please see header file for more in
     damgard_jurik_plaintext_t *se_p = dj.decrypt(&c_3);
     unsigned char *select_text = se_p->to_bytes();
 
-[1] https://en.wikipedia.org/wiki/Damg%C3%A5rd%E2%80%93Jurik_cryptosystem
+ [1] https://en.wikipedia.org/wiki/Damg%C3%A5rd%E2%80%93Jurik_cryptosystem  "Damgård–Jurik Cryptosystem"
 
-[2] https://en.wikipedia.org/wiki/Paillier_cryptosystem
+ [2] https://en.wikipedia.org/wiki/Paillier_cryptosystem  "Paillier"
 
-[3] https://en.wikipedia.org/wiki/Homomorphic_encryption
+ [3] https://en.wikipedia.org/wiki/Homomorphic_encryption "HE"
 
-[4] https://people.csail.mit.edu/rivest/voting/papers/DamgardJurikNielsen-AGeneralizationOfPailliersPublicKeySystemWithApplicationsToElectronicVoting.pdf
+ [4] https://people.csail.mit.edu/rivest/voting/papers/DamgardJurikNielsen-AGeneralizationOfPailliersPublicKeySystemWithApplicationsToElectronicVoting.pdf "Damgård–Jurik"
 
-[5] http://ojs.statsbiblioteket.dk/index.php/brics/article/viewFile/20212/17825
+ [5] http://ojs.statsbiblioteket.dk/index.php/brics/article/viewFile/20212/17825 "Damgård–Jurik"
